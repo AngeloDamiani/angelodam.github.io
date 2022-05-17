@@ -1,14 +1,21 @@
-
+import * as bw from "util/browser_util"
 
 var content = false
 
 function cv_onclick(){
-    var html_string="<div id='pdfcontainer'></div>"
-    content.html(html_string);
-    PDFObject.embed("../pdf/cv.pdf", "#pdfcontainer")
-    $('.pdfobject-container').css("height", "25cm")
-    $('.pdfobject-container').css("width", "100%")
-    $('.pdfobject-container').css("margin", "auto")
+    var html_string = ''
+    if (bw.is_mobile()){
+        html_string = "<div>Download my curriculum <a href='../pdf/cv.pdf'>here</a></div>";
+        content.html(html_string);
+    }
+    else {
+        html_string="<div id='pdfcontainer'></div>"
+        content.html(html_string);
+        PDFObject.embed("../pdf/cv.pdf", "#pdfcontainer")
+        $('.pdfobject-container').css("height", "25cm")
+        $('.pdfobject-container').css("width", "100%")
+        $('.pdfobject-container').css("margin", "auto")
+    }
 
 }
 
