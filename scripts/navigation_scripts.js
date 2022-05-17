@@ -7,6 +7,7 @@ function cv_onclick(){
     if (bw.is_mobile()){
         html_string = "<div>Download my curriculum <a href='../pdf/cv.pdf'>here</a></div>";
         content.html(html_string);
+        $('#banner_text').html(html_string)
     }
     else {
         html_string="<div id='pdfcontainer'></div>"
