@@ -251,3 +251,7 @@ p{
         height: 0;
     }
 }
+
+#cv-link{
+    font-weight: 600;
+}
