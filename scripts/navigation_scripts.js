@@ -11,7 +11,6 @@ function cv_onclick(){
     if (is_mobile()){
         html_string = "<div>Download my curriculum <a id='cv-link' href='../pdf/cv.pdf'>here</a></div>";
         content.html(html_string);
-        $('#banner_text').html(html_string)
     }
     else {
         html_string="<div id='pdfcontainer'></div>"
