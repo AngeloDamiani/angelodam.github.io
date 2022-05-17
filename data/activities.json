@@ -1,0 +1,76 @@
+{
+  "activities": [
+    {
+      "date": "2019-03",
+      "name": "Master of Engineering Graduation",
+      "link": "./pdf/certifications/CertificatoLaureaMagistrale.pdf",
+      "description": "Master of Engineering Graduation in Computer and System Engineering.\nGraduation Grade: 110/110 cum Laude and Honors. \n Thesis: Modeling and Adaptive Model Predictive Control of a Hydraulic McKibben Muscle.",
+      "type": "graduation",
+      "place": "University of L'Aquila, L'Aquila, IT"
+    },
+    {
+      "date": "2016-12",
+      "name": "Bachelor of Engineering Graduation",
+      "link": "",
+      "description": "Bachelor of Eigeneering Graduation in Information Engineering.\nGraduation Grade: 110/110 cum Laude. \n Thesis: Implementation of a RSTP plug-in for the OpenFlow-based controller Ryu.",
+      "type": "graduation",
+      "place": "University of L'Aquila, L'Aquila, IT"
+    },
+    {
+      "date": "2016-06",
+      "name": "Cisco CCNA1 Routing and Switching: Introduction to Networks",
+      "link": "./pdf/certifications/CCNA1.pdf",
+      "description": "Achievement of the Cisco CCNA1 certification",
+      "type": "certificate",
+      "place": "University of L'Aquila, L'Aquila, IT"
+    },
+    {
+      "date": "2018-06",
+      "name": "Cisco CCNA2 Routing and Switching: Routing and Switching Essentials",
+      "link": "./pdf/certifications/CCNA2.pdf",
+      "description": "Achievement of the Cisco CCNA2 certification",
+      "type": "certificate",
+      "place": "University of L'Aquila, L'Aquila, IT"
+    },
+    {
+      "date": "2017-09",
+      "name": "Assistive Technology Development Workshop",
+      "link": "./pdf/certifications/workshopSIT.pdf",
+      "description": "Two weeks workshop (fully named as “Support Equipment Development International Joint Training Program”) aimed to study and design auxiliary devices and innovative machines which can help agricultural operators in cultivation activities improving their work conditions and operational efficiency.",
+      "type": "workshop",
+      "place": "Shibaura Institute of Technology, Omiya, JP"
+    },
+    {
+      "date": "2018-07",
+      "name": "Pre-doctoral Research School",
+      "link": "./pdf/certifications/CMMRS.pdf",
+      "description": "Organized by Cornell University, University of Maryland and Max-Planck Institute for Software\nSystems (fully named as “The Cornell, Maryland, Max Planck Pre-doctoral Research School 2018), it was a one week pre-doctoral summer school. Participants were exposed to the state of the art and cutting-edge research topics by internationally leading computer scientists from the organizing institutions.",
+      "type": "conference",
+      "place": "Max Planck Institute for Software Systems, Saarbrücken, DE."
+    },
+    {
+      "date": "2019-03",
+      "name": "Research Exchange Program",
+      "link": "./pdf/certifications/SITexchange.pdf",
+      "description": "While there I worked on my Master’s Degree thesis which was about modeling and control a hydraulic McKibben artificial muscle. A black-box System Identification has been used to define\na parametric model. Parameters, then, are iteratively refined using the Recursive Least Squares algorithm during the functioning. In the end this adaptive model has been used by an MPC to control the displacement of the artificial muscle",
+      "type": "conference",
+      "place": "Shibaura Institute of Technology, Omiya, JP"
+    },
+    {
+      "date": "2021-07",
+      "name": "International School on Deep Learning",
+      "link": "./pdf/certifications/deeplearn2021.pdf",
+      "description": "(Remote) Attendee of the International School on Deep Learning 2021.",
+      "type": "conference",
+      "place": "Las Palmas de Gran Canaria, ES"
+    },
+    {
+      "date": "2021-05",
+      "name": "Release of 'Japanese Quiz' app",
+      "link": "https://gallery.fitbit.com/details/8ccfa936-7d16-486b-a467-608822bafa43",
+      "description": "Design and release of FitBit application for the Japanese Language learning",
+      "type": "project",
+      "place": "EoE"
+    }
+  ]
+}
