@@ -31,7 +31,6 @@ function validate_mail(email){
         );
 }
 function check_form_correctness(){
-
     if($('#input_name').val().length < 1) {return false}
     if(!validate_mail($('#input_mail').val())){return false}
     if($('#input_message').val().length < 1) {return false}
