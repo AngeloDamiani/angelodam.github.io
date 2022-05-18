@@ -12,6 +12,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="scripts/navigation_scripts.js"></script>
     <script src="scripts/pdfobject.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("edJuGxhwHnXr4Bn4U");
+        })();
+     </script>
+
 </head>
 
 <div class="text-center container-fluid" id="first_banner">
@@ -37,7 +46,7 @@
                     <a class="nav-link" id="cv-btn" href="#">CV</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Me</a>
+                    <a class="nav-link" id="contact-me-btn" href="#">Contact Me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Research</a>

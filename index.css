@@ -250,8 +250,24 @@ p{
     .episode__number img{
         height: 0;
     }
+    #contact-me {
+        margin-top: 20px;
+    }
 }
 
 #cv-link{
     font-weight: 600;
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: #343a40 !important;
+}
+
+
+.contacts-container {
+    display: inline-block;
+}
+
+.contact-icon{
+    margin: 15px;
 }

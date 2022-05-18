@@ -23,6 +23,45 @@ function cv_onclick(){
 
 }
 
+function validate_mail(email){
+    return String(email)
+        .toLowerCase()
+        .match(
+            /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        );
+}
+function check_form_correctness(){
+
+    if($('#input_name').val().length < 1) {return false}
+    if(!validate_mail($('#input_mail').val())){return false}
+    if($('#input_message').val().length < 1) {return false}
+    return true
+}
+
+function send_mail(){
+    if (check_form_correctness()){
+        var templateParams = {
+            name_form: $('#input_name').val(),
+            message: $('#input_message').val(),
+            email_form: $('#input_mail').val()
+        };
+        emailjs.send('service_wkolml4', 'template_ymhlcq4', templateParams)
+            .then(function(response) {
+                alert("Message sent. I'll write you as soon as I can")
+                about_me_onclick()
+            }, function(error) {
+                alert('Error:', error);
+            });
+    }
+    else {
+        alert('Please fill all the forn fields')
+    }
+}
+
+function contact_me_onclick(){
+    show_page("../pages/contact_me.html")
+}
+
 function about_me_onclick(){
     show_page("../pages/about_me.html")
 }
@@ -114,6 +153,11 @@ $(document).ready(function(){
     $("#activities-btn").click(function (){
         activities_onclick();
         nav_active('#activities-btn')
+    })
+
+    $("#contact-me-btn").click(function (){
+        contact_me_onclick();
+        nav_active('#contact-me-btn')
     })
 
     about_me_onclick()

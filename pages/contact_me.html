@@ -1,0 +1,43 @@
+
+<div class="col-sm-8 center-text align-self-center">
+    <img id="mypic" src="../image/test.jpeg" alt="A picture of me" width="85%" style="border:3px solid #343a40">
+    <!--
+    <div class="row">
+        <div class="col">
+            <a href="angelo.damiani@gssi.it">
+                <img class="contact-icon" alt="Email" src="image/email.png" width="10%">some text
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://t.me/angelo_dam">
+                <img class="contact-icon" alt="Telegram" src="image/telegram.png" width="10%">some text
+            </a>
+        </div>
+        <div class="col">
+            <a class="col-sm-4" href="tel:3468674823">
+                <img class="contact-icon" alt="Phone Number" src="image/smartphone.png" width="10%">some text
+            </a>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+    -->
+</div>
+<div class="col-sm-4 align-self-center" id="contact-me">
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="input_name">Full Name</label>
+            <input type="text" class="form-control" id="input_name" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+            <label for="input_mail">Email address</label>
+            <input type="email" class="form-control" id="input_mail" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="input_message">Message</label>
+            <textarea class="form-control" id="input_message" rows="4" placeholder="Some message"></textarea>
+        </div>
+        <button type="button" id='contact-form-sub' class="btn btn-secondary" onclick="send_mail()">Submit</button>
+    </form>
+</div>
