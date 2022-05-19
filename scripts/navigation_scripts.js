@@ -6,6 +6,10 @@ function is_mobile() {
     return check;
 }
 
+function recent_activities(){
+
+}
+
 function cv_onclick(){
     var html_string = ''
     if (is_mobile()){
@@ -77,20 +81,28 @@ function nav_active(selector){
     $(selector).parent().addClass('active')
 }
 
-function get_card(activity){
+function get_activity_image_filename(activity){
+    if (activity.type == 'conference'){return 'conference.png'}
+    if (activity.type == 'workshop'){return 'maintenance.png'}
+    if (activity.type == 'project'){return 'pc.png'}
+    if (activity.type == 'certificate'){return 'certificate.png'}
+    if (activity.type == 'graduation'){return 'tocco.png'}
+}
+
+function get_activity_date_string(activity){
     const date = new Date(activity.date)
     const month = date.getMonth() + 1; // getMonth() returns month from 0 to 11
     const year = date.getFullYear();
     var date_str = `${month}/${year}`;
 
     if (month < 10){date_str = '0'+date_str}
+    return date_str
+}
 
-    var img_name = null
-    if (activity.type == 'conference'){img_name = 'conference.png'}
-    if (activity.type == 'workshop'){img_name = 'maintenance.png'}
-    if (activity.type == 'project'){img_name = 'pc.png'}
-    if (activity.type == 'certificate'){img_name = 'certificate.png'}
-    if (activity.type == 'graduation'){img_name = 'tocco.png'}
+function get_card(activity){
+
+    var date_str = get_activity_date_string(activity)
+    var img_name = get_activity_image_filename(activity)
 
 
 
@@ -116,6 +128,34 @@ function get_card(activity){
 }
 
 function recent_activities(){
+    var filePath = '../data/activities.json'
+    var recent_act = $('#recent-activities-container')
+    $.getJSON(filePath, function(json) {
+        var activities = json.activities
+        activities.sort(function(a,b){
+            // Turn your strings into dates, and then subtract them
+            // to get a value that is either negative, positive, or zero.
+            return new Date(b.date) - new Date(a.date);
+        });
+        var html_string = "<div class='row'>"
+        for (let i = 0; i < 3; i++) {
+            var activity = activities[i]
+            var date_str = get_activity_date_string(activity)
+            var filename = get_activity_image_filename(activity)
+
+            var act_string = "<div class = 'col-sm-4 last-activity'>"+
+                        "<div class = 'activity-icon-container'>"+
+                        "<img src ='image/activity_icon/"+filename+"' width = '20%' alt='activity icon'>"+
+                        "</div>"+
+                        "<h3 class='last-activity-name'><a href='"+activity.link+"'>"+activity.name+"</a></h3>"+
+                        "<div class='in_date'><p class='in-date'>"+date_str+"</p></div>"+
+                        "<p class='last-activity-descr'>"+activity.description+"</p>"+
+                        "</div>"
+            html_string = html_string+act_string
+        }
+        html_string = html_string + "</div>"
+        recent_act.html(html_string);
+    });
 }
 
 function activities_onclick(){
@@ -160,4 +200,5 @@ $(document).ready(function(){
     })
 
     about_me_onclick()
+    recent_activities()
 });
