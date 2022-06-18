@@ -87,6 +87,7 @@ function get_activity_image_filename(activity){
     if (activity.type == 'project'){return 'pc.png'}
     if (activity.type == 'certificate'){return 'certificate.png'}
     if (activity.type == 'graduation'){return 'tocco.png'}
+    if (activity.type == 'publication'){return 'article.png'}
 }
 
 function get_activity_date_string(activity){
