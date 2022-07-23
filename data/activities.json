@@ -2,15 +2,15 @@
   "activities": [
     {
       "date": "2022-06",
-      "name": "RLDM 2022 Publication",
-      "link": "https://rldm.org/wp-content/uploads/2022/06/RLDM2022_cameraready.pdf",
+      "name": "RLDM 2022",
+      "link": "https://rldm.org/wp-content/uploads/2022/06/RLDM2022_cameraready.pdf#page=397",
       "description": "Long abstract paper about our Inverse Reinforcement Learning work: \n <a href='./pdf/publications/rldm2022_IRL.pdf'><b>A Novel Inverse Reinforcement Learning Formulation for Sample-Aware Forward Learning</b></a>.",
       "type": "publication",
       "place": "Brown University, Providence, US"
     },
     {
       "date": "2022-06",
-      "name": "RLDM 2022 Attendance",
+      "name": "RLDM 2022",
       "link": "https://rldm.org/",
       "description": "Attendee of the 5th Multi-disciplinary Conference on Reinforcement Learning and Decision Making.\n Here I hosted a poster session about <a href='./pdf/publications/rldm2022_IRL.pdf'>our Inverse Reinforcement Learning Work</a>.",
       "type": "conference",
@@ -74,7 +74,7 @@
     },
     {
       "date": "2021-07",
-      "name": "Summer School DeepLearn 2021 Attendance",
+      "name": "DeepLearn 2021",
       "link": "./pdf/certifications/deeplearn2021.pdf",
       "description": "(Remote) Attendee of the International School on Deep Learning 2021.",
       "type": "conference",
@@ -87,6 +87,14 @@
       "description": "Design and release of FitBit application for the Japanese Language learning",
       "type": "project",
       "place": "EoE"
+    },
+    {
+      "date": "2022-07",
+      "name": "ICML 2022 Publication",
+      "link": "https://proceedings.mlr.press/v162/damiani22a/damiani22a.pdf",
+      "description": "Conference paper about our Inverse Reinforcement Learning work: \n <a href='#'><b>Balancing Sample Efficiency and Suboptimality in Inverse Reinforcement Learning</b></a>.",
+      "type": "publication",
+      "place": "Baltimore, US"
     }
   ]
 }

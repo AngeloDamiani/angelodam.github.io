@@ -148,7 +148,7 @@ function recent_activities(){
                         "<div class = 'activity-icon-container'>"+
                         "<img src ='image/activity_icon/"+filename+"' width = '20%' alt='activity icon'>"+
                         "</div>"+
-                        "<h3 class='last-activity-name'><a href='"+activity.link+"'>"+activity.name+"</a></h3>"+
+                        "<h3 class='last-activity-name'><a class='test' href='"+activity.link+"'>"+activity.name+"</a></h3>"+
                         "<div class='in_date'><p class='in-date'>"+date_str+"</p></div>"+
                         "<p class='last-activity-descr'>"+activity.description+"</p>"+
                         "</div>"
