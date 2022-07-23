@@ -92,7 +92,7 @@
       "date": "2022-07",
       "name": "ICML 2022 Publication",
       "link": "https://proceedings.mlr.press/v162/damiani22a/damiani22a.pdf",
-      "description": "Conference paper about our Inverse Reinforcement Learning work: \n <a href='#'><b>Balancing Sample Efficiency and Suboptimality in Inverse Reinforcement Learning</b></a>.",
+      "description": "Conference paper about our Inverse Reinforcement Learning work: \n <a href='https://proceedings.mlr.press/v162/damiani22a/damiani22a.pdf'><b>Balancing Sample Efficiency and Suboptimality in Inverse Reinforcement Learning</b></a>.",
       "type": "publication",
       "place": "Baltimore, US"
     }
