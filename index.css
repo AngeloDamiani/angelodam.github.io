@@ -240,6 +240,9 @@ p{
     .episode{
         grid-template-columns: 0ch auto;
     }
+    .last-activity-descr{
+        text-align: center;
+    }
 }
 
 @media (max-width: 576px) {
