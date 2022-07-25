@@ -66,7 +66,7 @@
 }
 
 .last-activity-descr{
-    text-align: left;
+    text-align: center;
 }
 
 .activity-icon-container{
@@ -239,9 +239,6 @@ p{
     }
     .episode{
         grid-template-columns: 0ch auto;
-    }
-    .last-activity-descr{
-        text-align: center;
     }
 }
 
