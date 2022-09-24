@@ -103,6 +103,14 @@
       "description": "Achievement of the IBM ICECPP01 certification",
       "type": "certificate",
       "place": "AoE"
+    },
+    {
+      "date": "2022-09",
+      "name": "IBMICECPP02: Object Oriented Implementation Using C++",
+      "link": "./pdf/certifications/IBMICECPP02.pdf",
+      "description": "Achievement of the IBM ICECPP02 certification",
+      "type": "certificate",
+      "place": "AoE"
     }
   ]
 }
