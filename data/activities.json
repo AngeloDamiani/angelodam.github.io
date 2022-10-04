@@ -111,6 +111,14 @@
       "description": "Achievement of the IBM ICECPP01 certification",
       "type": "certificate",
       "place": "AoE"
+    },
+    {
+      "date": "2022-10",
+      "name": "DL0120EN: Deep Learning with Tensorflow",
+      "link": "./pdf/certifications/IBMDL0120EN.pdf",
+      "description": "Achievement of the IBM DL0120EN certification",
+      "type": "certificate",
+      "place": "AoE"
     }
   ]
 }
