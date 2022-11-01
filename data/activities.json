@@ -119,6 +119,14 @@
       "description": "Achievement of the IBM DL0120EN certification",
       "type": "certificate",
       "place": "AoE"
+    },
+    {
+      "date": "2022-11",
+      "name": "ML0210EN: PyTorch Basics for Machine Learning\n",
+      "link": "./pdf/certifications/ML0210EN.pdf",
+      "description": "Achievement of the IBM ML0210EN certification",
+      "type": "certificate",
+      "place": "AoE"
     }
   ]
 }
