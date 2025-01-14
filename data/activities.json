@@ -127,6 +127,30 @@
       "description": "Achievement of the IBM ML0210EN certification",
       "type": "certificate",
       "place": "AoE"
+    },
+    {
+      "date": "2024-02",
+      "name": "Ph.D. Graduation",
+      "link": "./pdf/certifications/phd_certificate.pdf",
+      "description": "Ph.D. in Computer Science.\n Thesis:<a href='./pdf/publications/thesis_final.pdf'><b>Enhancing Data Efficiency in Reinforcement Learning through Inverse and Transfer Reinforcement Learning.</b></a>",
+      "type": "graduation",
+      "place": "Gran Sasso Science Institute, L'Aquila, IT"
+    },
+    {
+      "date": "2024-07",
+      "name": "ACC 2024",
+      "link": "https://ieeexplore.ieee.org/document/10644658",
+      "description": "Conference paper about our Transfer Learning work: \n <a href='https://ieeexplore.ieee.org/document/10644658'><b>Transfer Learning for Dynamical Systems Models\nvia Autoencoders and GANs</b></a>.",
+      "type": "publication",
+      "place": "Toronto, CA"
+    },
+    {
+      "date": "2024-10",
+      "name": "Splunk Certified Power User\n",
+      "link": "./pdf/certifications/splunk_cert_pu.pdf",
+      "description": "Achievement of the Splunk Core Certified Power User certification",
+      "type": "certificate",
+      "place": "AoE"
     }
   ]
 }
